@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Prakeerth Prasad's GitHub portfolio featuring AI systems, machine learning projects, computer vision work, and production-focused engineering."
+    />
+    <title>Prakeerth Prasad | AI Engineer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <noscript>
+      <style>
+        .reveal {
+          opacity: 1 !important;
+          transform: none !important;
+        }
+      </style>
+    </noscript>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="page-orb page-orb-a" aria-hidden="true"></div>
+    <div class="page-orb page-orb-b" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#main">
+        <span class="brand-mark">PP</span>
+        <span class="brand-copy">
+          <strong>Prakeerth Prasad</strong>
+          <span>AI engineer portfolio</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Primary">
+        <a href="#work">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+
+      <button
+        type="button"
+        class="menu-toggle"
+        id="menuToggle"
+        aria-expanded="false"
+        aria-controls="nav"
+        aria-label="Open menu"
+      >
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+    <main id="main">
+      <section class="hero section-frame">
+        <div class="hero-visuals" aria-hidden="true">
+          <div class="hero-gradient hero-gradient-a"></div>
+          <div class="hero-gradient hero-gradient-b"></div>
+          <div class="hero-grid"></div>
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow reveal" data-reveal>
+            Northwestern MS in AI • machine learning • systems thinking
+          </p>
+          <h1 class="hero-title reveal" data-reveal>
+            I build
+            <span>intelligent products</span>
+            that feel sharp in a repo and useful in the real world.
+          </h1>
+          <p class="hero-lead reveal reveal-delay-1" data-reveal>
+            Graduate student in Artificial Intelligence at Northwestern University,
+            focused on turning research-grade ideas into deployable systems across
+            computer vision, NLP, generative AI, and backend product engineering.
+          </p>
+          <div class="hero-tech reveal reveal-delay-2" data-reveal aria-label="Core technologies">
+            <span class="tech-pill">PyTorch</span>
+            <span class="tech-pill">Computer Vision</span>
+            <span class="tech-pill">LLM Systems</span>
+            <span class="tech-pill">FastAPI</span>
+            <span class="tech-pill">React</span>
+          </div>
+
+          <div class="hero-actions reveal reveal-delay-2" data-reveal>
+            <a
+              class="btn btn-primary"
+              href="https://github.com/prakeerthprasadoff"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Explore GitHub
+            </a>
+            <a class="btn btn-secondary" href="#work">View flagship projects</a>
+          </div>
+          <div class="hero-meta reveal reveal-delay-3" data-reveal>
+            <div class="meta-row">
+              <span class="meta-term">Focus</span>
+              <p>Computer Vision, NLP, Generative AI, and Production-minded ML systems.</p>
+            </div>
+            <div class="meta-row">
+              <span class="meta-term">Open to</span>
+              <p>AI Engineering internships, full-time ML roles, and strong technical collaborations.</p>
+            </div>
+          </div>
+          <div class="hero-highlights reveal reveal-delay-3" data-reveal>
+            <article class="highlight-card">
+              <span class="highlight-value">23K+</span>
+              <p>multilingual responses processed</p>
+            </article>
+            <article class="highlight-card">
+              <span class="highlight-value">5</span>
+              <p>featured AI systems showcased</p>
+            </article>
+            <article class="highlight-card">
+              <span class="highlight-value">74%</span>
+              <p>peak model accuracy in video classification</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-frame" id="work">
+        <div class="section-heading reveal" data-reveal>
+          <span class="eyebrow">Featured work</span>
+          <h2>Projects built for real-world AI impact.</h2>
+          <p>
+            From multilingual prediction systems to assistive hardware, this portfolio reflects
+            end-to-end AI engineering across modeling, product, and deployment-focused workflows.
+          </p>
+        </div>
+
+        <div class="project-showcase">
+          <article class="project project-featured reveal" data-reveal>
+            <div class="project-surface">
+              <p class="project-kicker">Global ML + analytics system</p>
+              <h3>Global AI Adoption Prediction System</h3>
+              <p class="project-summary">
+                Built an end-to-end machine learning system to analyze and predict global AI
+                adoption using multilingual survey data across 21 countries, revealing behavioral
+                and demographic adoption drivers.
+              </p>
+              <ul class="project-list">
+                <li><strong>Model:</strong> HistGradientBoostingRegressor with Scikit-learn preprocessing pipeline</li>
+                <li><strong>NLP stack:</strong> langdetect + translation APIs for 12-language normalization at 23,000+ response scale</li>
+                <li><strong>Data tooling:</strong> OpenRefine + feature engineering to build an AI Adoption Score across use cases</li>
+                <li><strong>Analytics:</strong> Tableau dashboards for trust, usage behavior, and demographic driver insights</li>
+              </ul>
+            </div>
+            <div class="project-meta">
+              <div>
+                <span class="meta-label">Stack</span>
+                <p>Python, Scikit-learn, OpenRefine, Tableau, NLP tooling, feature engineering</p>
+              </div>
+              <div>
+                <span class="meta-label">Impact</span>
+                <p>Identified trust as the strongest adoption driver and informed targeting strategies that improved conversion estimates by ~62%.</p>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="text-link">Repository</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal" data-reveal>
+            <div class="project-surface project-surface-warm">
+              <p class="project-kicker">Deep learning + video understanding</p>
+              <h3>MLB Pitch Classification System</h3>
+              <p class="project-summary">
+                Built a full video classification pipeline that combines spatial and temporal
+                modeling to identify pitch types from baseball video sequences.
+              </p>
+              <ul class="project-list">
+                <li><strong>Core model:</strong> ResNet-18 + LSTM hybrid for spatial-temporal pitch classification</li>
+                <li><strong>CV pipeline:</strong> OpenCV frame extraction with PyTorch sequence training workflow</li>
+                <li><strong>Benchmarks:</strong> Decision Tree + Random Forest baselines using Scikit-learn</li>
+                <li><strong>Data strategy:</strong> Class balancing from ~100 to ~200 samples per pitch type</li>
+              </ul>
+            </div>
+            <div class="project-meta">
+              <div>
+                <span class="meta-label">Stack</span>
+                <p>Python, PyTorch, OpenCV, ResNet, LSTM, Scikit-learn</p>
+              </div>
+              <div>
+                <span class="meta-label">Impact</span>
+                <p>Improved classification accuracy from ~56% to ~74%, validating CNN + sequence modeling for video tasks.</p>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="text-link">Repository</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal" data-reveal>
+            <div class="project-surface project-surface-cool">
+              <p class="project-kicker">Human-centered AI product design</p>
+              <h3>AI Tutor System (HCI Project)</h3>
+              <p class="project-summary">
+                Designed an educational assistant focused on guided problem-solving, where
+                students receive step-by-step hints rather than direct answers.
+              </p>
+              <ul class="project-list">
+                <li><strong>Reasoning stack:</strong> LLM APIs + Wolfram Alpha API for guided, stepwise hints</li>
+                <li><strong>Frontend:</strong> React interface with course context selection and file upload support</li>
+                <li><strong>Personalization:</strong> Memory layer to track student mistakes and adapt guidance</li>
+                <li><strong>HCI method:</strong> User interviews + usability testing to optimize trust and engagement</li>
+              </ul>
+            </div>
+            <div class="project-meta">
+              <div>
+                <span class="meta-label">Stack</span>
+                <p>React, LLM APIs, Wolfram Alpha API, UX research, Figma prototyping</p>
+              </div>
+              <div>
+                <span class="meta-label">Impact</span>
+                <p>Increased trust and engagement versus direct-answer tools while reinforcing conceptual learning.</p>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="text-link">Repository</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal" data-reveal>
+            <div class="project-surface">
+              <p class="project-kicker">Knowledge representation + reasoning</p>
+              <h3>Course Prerequisite Recommender (KRR)</h3>
+              <p class="project-summary">
+                Built an intelligent planner that combines graph-based prerequisite modeling
+                with LLM reasoning to suggest alternative graduation pathways.
+              </p>
+              <ul class="project-list">
+                <li><strong>Symbolic core:</strong> Directed prerequisite graph modeled in Python with NetworkX</li>
+                <li><strong>Algorithms:</strong> Graph traversal for dependency chains, blockers, and missing requirements</li>
+                <li><strong>LLM layer:</strong> Azure OpenAI for alternative path generation and requirement completion ideas</li>
+                <li><strong>UX:</strong> React planner for interactive path exploration and course recommendation review</li>
+              </ul>
+            </div>
+            <div class="project-meta">
+              <div>
+                <span class="meta-label">Stack</span>
+                <p>React, Python, NetworkX, Azure OpenAI APIs</p>
+              </div>
+              <div>
+                <span class="meta-label">Impact</span>
+                <p>Enabled students to evaluate optimal and flexible graduation routes with hybrid symbolic + LLM reasoning.</p>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="text-link">Repository</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal" data-reveal>
+            <div class="project-surface project-surface-cool">
+              <p class="project-kicker">Assistive AI + embedded systems (ongoing)</p>
+              <h3>Smart Vision Glasses for Navigation</h3>
+              <p class="project-summary">
+                Developing a real-time assistive navigation system for visually impaired users by
+                combining smart glasses, sensor fusion, and computer vision.
+              </p>
+              <ul class="project-list">
+                <li><strong>Sensor fusion:</strong> TFMini LiDAR + BNO085 IMU via Arduino for distance and orientation signals</li>
+                <li><strong>Vision stack:</strong> OpenCV + Mediapipe pipeline for obstacle and scene interpretation</li>
+                <li><strong>Connectivity:</strong> BLE/WiFi packet analysis to reverse-engineer HeyCyan data transfer flow</li>
+                <li><strong>System goal:</strong> Real-time assistive navigation feedback for low-cost wearable deployment</li>
+              </ul>
+            </div>
+            <div class="project-meta">
+              <div>
+                <span class="meta-label">Stack</span>
+                <p>Python, OpenCV, Mediapipe, Arduino, TFMini LiDAR, BNO085 IMU, BLE/WiFi</p>
+              </div>
+              <div>
+                <span class="meta-label">Impact</span>
+                <p>Advances a low-cost wearable navigation aid and demonstrates full-stack capability across hardware, networking, and AI.</p>
+              </div>
+              <div class="project-actions">
+                <a href="#" class="text-link">Research notes</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-frame" id="skills">
+        <div class="section-heading reveal" data-reveal>
+          <span class="eyebrow">Skills</span>
+          <h2>Technical toolkit</h2>
+        </div>
+
+        <div class="skills-layout">
+          <article class="skill-panel reveal" data-reveal>
+            <h3>Languages</h3>
+            <ul class="chip-list">
+              <li>Python</li>
+              <li>C++</li>
+              <li>JavaScript</li>
+              <li>SQL</li>
+            </ul>
+          </article>
+
+          <article class="skill-panel reveal" data-reveal>
+            <h3>ML / AI</h3>
+            <ul class="chip-list">
+              <li>PyTorch</li>
+              <li>TensorFlow</li>
+              <li>Scikit-learn</li>
+              <li>Hugging Face</li>
+              <li>OpenCV</li>
+              <li>Generative AI</li>
+            </ul>
+          </article>
+
+          <article class="skill-panel reveal" data-reveal>
+            <h3>Backend / Systems</h3>
+            <ul class="chip-list">
+              <li>FastAPI</li>
+              <li>REST APIs</li>
+              <li>SQLAlchemy</li>
+              <li>Docker</li>
+              <li>Azure AI</li>
+              <li>AWS basics</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-frame palette-band reveal" data-reveal aria-hidden="true">
+        <div class="palette-line palette-line-a"></div>
+        <div class="palette-line palette-line-b"></div>
+        <div class="palette-line palette-line-c"></div>
+      </section>
+
+      <section class="section-frame about-section" id="about">
+        <div class="about-card reveal" data-reveal>
+          <span class="eyebrow">About</span>
+          <h2>Prakeerth Prasad</h2>
+          <p>
+            I’m an MS in Artificial Intelligence student at Northwestern University with a
+            strong interest in building systems that connect modeling performance with actual
+            utility. I care about the full arc: problem framing, experimentation, engineering
+            discipline, and how the final product feels to use.
+          </p>
+          <p>
+            The goal of this page is simple: make your GitHub profile feel like the front door
+            to serious engineering work rather than a list of disconnected repositories.
+          </p>
+        </div>
+        <figure class="about-photo-card reveal reveal-delay-1" data-reveal>
+          <img
+            class="about-photo"
+            src="./profile-photo.jpg"
+            alt="Portrait of Prakeerth Prasad"
+            loading="lazy"
+          />
+        </figure>
+      </section>
+
+      <section class="section-frame contact-section" id="contact">
+        <div class="contact-card reveal" data-reveal>
+          <span class="eyebrow">Contact</span>
+          <h2>Make the next click your GitHub profile.</h2>
+          <p>
+            Swap in your real GitHub username, email address, and project links, and this page
+            becomes portfolio-grade immediately.
+          </p>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="mailto:you@example.com">Email me</a>
+            <a
+              class="btn btn-secondary"
+              href="https://github.com/prakeerthprasadoff"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub profile
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Prakeerth Prasad. Built with HTML, CSS, and JavaScript.</p>
+      <a class="back-top" id="backTop" href="#main" aria-label="Back to top">Top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
